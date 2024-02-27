@@ -1,0 +1,42 @@
+#page{
+  background-color:skyblue;
+  text-align: black;
+  font-family:'roboto ';
+
+  
+}
+.line{
+  font-size: 40px;
+  
+}
+.line2{
+  font-size: 25px;
+  }
+
+
+.float-container {
+  border: 3px ;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:25px;
+  margin-top: 10px;
+  min-height:300px;
+  position: relative;
+  background-color: skyblue;
+}
+
+.float-child {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+      font-size: large;
+    padding: 10px;
+    border: 2px ;
+    background-color:white;
+  
+}
+.float-value{
+  margin-top: 2px;
+
+}
